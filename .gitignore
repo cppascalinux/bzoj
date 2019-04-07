@@ -4,3 +4,5 @@
 1[0-9].out
 20.in
 20.out
+*.zip
+*.exe
