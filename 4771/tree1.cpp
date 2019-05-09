@@ -149,7 +149,7 @@ void init()
 }
 int solve(int x,int d)
 {
-	int nd=dep[x]+d;
+	int nd=min(n,dep[x]+d);
 	return ask(rt[nd],1,n,dfn[x],ed[x]);
 }
 int main()
